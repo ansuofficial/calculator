@@ -1,7 +1,6 @@
 import React, { useState } from "react";
-import { State } from "./useState.jsx";
-
-export const App = () => {
+// import { State } from "./useState.jsx";
+ const App = () => {
   const [value, setValue] = useState("");
 
   return (
@@ -117,7 +116,10 @@ export const App = () => {
           </form>
         </div>
       </div>
-      <State />
+      {/* <State /> */}
     </>
   );
 };
+
+
+export default App
